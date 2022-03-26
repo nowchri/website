@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/styleBorder.css">
+	<link rel="shortcut icon" href="img/icono.png" type="image/x-icon" />
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
+
+	<title> Manejo Imagenes</title>
+</head>
+<body>
+
+	<div class="container"> 
+		<div class="sidebar">
+
+					<div class="newadmin2">
+						<br>
+							<h4 style="color:whitesmoke ;"> Admin</h4>
+								<p style="color:#DBDADA;">Hecker</p>
+
+						<img class="joder" src="img/hecker.jpg" alt="">
+
+					
+						</div>
+					
+				
+			<ul>	
+      			<li>
+					<a href="index.html">
+					
+						<div class="title"> WELCOME </div>
+					</a>	
+				</li>
+				<li>
+					<a href="indexInicio.html">
+						<i> <img class="menu1" src="img/casa.png"></i>
+						<div class="title"> :Inicio </div>
+					</a>	
+				</li>
+				<li>
+					<a href="indexForm.html">
+						<i> <img class="menu1" src="img/form.png"></i>
+						<div class="title"> :Formularios </div>
+					</a>	
+				</li>
+				<li>
+					<a href="indexImg.html">	
+						<i> <img class="menu1" src="img/imagen.png"></i>
+						<div class="title"> :Imagen </div>
+					</a>	
+				</li>
+				<li>
+					<a href="indexTitulos.html">	
+						<i> <img class="menu1" src="img/titulo.png"></i>
+						<div class="title"> :Titulo </div>
+					</a>	
+				</li>
+				<li>
+					<a href="indexVideo.html">
+						<i> <img class="menu1" src="img/video.png"></i>
+						<div class="title"> :Videos </div>
+					</a>	
+				</li>
+					<li>
+					<a href="indexBordes.html">
+						<i> <img class="menu1" src="img/bordes.png"></i>
+						<div class="title"> :Bordes </div>
+					</a>	
+				</li>
+
+
+			</ul>
+		</div>
+
+
+		<div class="main">
+			<div class="top-bar">
+				<div class="barra-inicio">
+						<span class="peter"> Manejo de Bordes </span>
+					</div>
+
+			</div>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+				<div class="MainBox">
+					
+					<div class="MediaCabecera" >
+						<center><h2><img src="img/extrella.png" class="cabe" style="width:20px; height: 20px;">Líneas separadoras horizontales</h2></center>
+					</div>
+					<br>
+					<div class="cont" style="text-align: justify;">
+						Existen dos formas para crear una línea separadora horizontal y una única forma para crear una línea separadora vertical.
+						Para crear una línea horizontal la forma fácil y rápida es utilizar la etiqueta < hr>, que no se cierra y que crea una línea horizontal simple.
+					   < hr>:
+					   	<br>
+					   	<br>
+					   	<hr>
+					   	<br>
+
+						Esta etiqueta admite algunas características CSS como el grosor de la línea (border-width), la anchura (width), el color (border-color) o el tipo de línea (border-style).
+						<br>
+						<br>
+						<hr style="border-color:purple;  ">
+						<br>
+						<br>
+
+						Para representar la línea azul punteada que hay sobre este párrafo es necesario tanto la etiqueta html como las declaraciones CSS: 
+						< hr>
+						 En este ejemplo el selector CSS (hr{) hace referencia a todas las líneas (< hr>) de la página. En el caso de querer hacer referencia únicamente a una, la etiqueta < hr> tendría que tener un id para poder identificarla (< hr id="linea1">) y el selector CSS sería: #linea1 hr{
+					</div>
+					<br>
+					<div class="MediaCabecera" >
+						<center><h2><img src="img/extrella.png" class="cabe" style="width:20px; height: 20px;">Líneas separadoras horizontales verticales</h2></center>
+					</div>
+					<br>
+					<div class="cont2" style="text-align: justify;">
+						Para crear líneas verticales tenemos que definir uno de los 4 bordes que tiene una caja (< div>), utilizando una (o varias) de estas
+						propiedades: Si se quiere añadir una única línea habría que añadir sólo una de estas líneas.
+						<br><br>Ejemplo para hacerlo: <br><br>
+						  <center>border-top: 1px solid red;<br>
+						  border-bottom: 2px dotted green;<br>
+						  border-right: 1px dashed #3C5391;<br>
+						  border-left: 1px inset orange;
+					</div></center>
+					<br>
+					<div class="MediaCabecera" >
+						<center><h2><img src="img/extrella.png" class="cabe" style="width:20px; height: 20px;">Bordes Simples</h2></center>
+					</div>
+					<br>
+					<div class="cont" style="text-align: justify;">
+						Para poder indicar un borde determinado con un color y un grosor concreto para un < div>, dentro del código CSS, utilizamos la propiedad 'border', que utiliza el siguiente formato: <br>
+						border:<u>( 2px solid grey; )</u><br><br>
+						 En este ejemplo, el valor '2px establece el grosor del borde en 2 píxeles, el valor 'solid' especifica el tipo de borde, mientras que finalmente se indica el color, ya sea utilizando el  de color, o bien el código de color en hexadecimal (anteponiendo el símbolo #).<br> <br>
+
+						En lo referente a los tipos de bordes existen las siguientes posibilidades:<br>
+						<div class="img2"><img src="img/exam.png" ></div>
+					</div>
+					<br>
+						<div class="MediaCabecera" >
+						<center><h2><img src="img/extrella.png" class="cabe" style="width:20px; height: 20px;">Bordes Redondeados</h2></center>
+					</div>
+					<br>
+					<div class="cont" style="text-align: justify;">
+						
+						Con la propiedad border-radius tenemos la posibilidad de crear < div> con las esquinas con bordes redondeados, pudiendo especificar la suavidad de las esquinas de manera conjunta o cada una de las esquinas por separado.
+
+						Para poder visualizar una esquina con borde redondeado, además de la propiedad border-radius, tenemos que definir un borde normal (con border) y/o indicar un color de fondo (con background-color).
+						<br>
+						<br>
+						<center><div class="img3"><img src="img/exam2.png" ></div></center>
+						<br>
+						<br>
+						Con estas dos líneas de código CSS practicamente no podemos apreciar ninguna esquina redondeada, ya que como el div no tiene contenido y no hemos definido la altura del < div id="apartado1"> el navegador establece una altura de 0 píxeles.
+							<br><br>
+						Para solucionarlo, vamos a añadir las dimensiones que tendrá este < div> para poder apreciar los bordes redondeados:
+						<br>
+						<br>
+						Con 'width' y 'height' definimos el tamaño del < div> que tiene como id el nombre "apartado1". En este ejemplo se ha definido una anchura de 300 píxeles por 100 px de alto (el tamaño se podría especificar también en porcentaje, sustituyendo 'px' por '%'). <br><br>
+							Utilizando 'border' indicamos un borde de un grosor de 3 píxeles, con una línea contínua sólida de color marrón [brown] (el color también podría especificarse en código hexadecimal).
+							<br><br>
+							Por último, con 'border-radius' especificamos que la suavidad de las 4 esquinas sea de 22 píxeles (el valor 0 correspondería a una esquina totalmente recta).
+							<br><br>
+							Si queremos indicar diferentes valores para cada una de las esquinas, tendríamos que especificar los 4 valores en el siguiente orden:<br><br>
+							1º: esquina superior/izquierda <br>
+							2º: superior/derecha <br>
+							3º: inferior/derecha <br> 
+							4º: inferior/izquierda. <br>
+							<div class="img4"><img src="img/exam3.png" ></div>
+
+
+					</div>
+					<br>
+				</div>	
+						
+		</div>
+
+
+
+
+
+		</div>
+	</div>
+
+
+
+
+</body>
+</html>
